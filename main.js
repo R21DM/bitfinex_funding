@@ -2,7 +2,7 @@ const axios = require("axios");
 
 const baseUrl = "https://api-pub.bitfinex.com/v2/";
 const pathParams = "trades/fUSD/hist";
-const queryParams = `limit=1000`;
+const queryParams = `limit=10000`;
 const period = 120;
 
 console.log(baseUrl + pathParams);
